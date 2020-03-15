@@ -1,5 +1,25 @@
 <template>
   <div>
+
+    <div>
+  <b-navbar toggleable="lg" type="dark" variant="dark">
+<div class="clearfix">
+  <b-img left src="https://static.wixstatic.com/media/85baeb_8a4fe5109ca84fbca03dd071bb05fb38~mv2.png" 
+  alt="Left image" height = "45px" weight = "45px"></b-img>
+</div>
+    <b-navbar-brand href="#"></b-navbar-brand>
+    <b-navbar-brand :to="{name:'index'}">Parqueadero</b-navbar-brand>
+
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+        <b-nav-item :to="{name:'ingreso'}">Ingreso de vehiculo</b-nav-item>
+        <b-nav-item :to="{name:'salida'}">Salida de vehiculo</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+</div>
     <nuxt />
   </div>
 </template>
