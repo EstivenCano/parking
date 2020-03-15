@@ -1,7 +1,16 @@
 # parking
 
-> My rad Nuxt.js project
+> Parcial para desarrollo web
 
+CRUD para parqueadero publico
+
+Info del desarrollador: 
+ - Nombre: Estiven Cano Urrego
+ - Correo: estivencano99@gmail.com
+ 
+ Notas: 
+  - Presionar "Recargar vehiculos" para observar la persistencia de datos
+ 
 ## Build Setup
 
 ``` bash
